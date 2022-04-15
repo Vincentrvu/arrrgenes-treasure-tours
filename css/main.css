@@ -75,6 +75,7 @@ nav a:focus {
 .banner img {
   grid-area: banner;
   width: 100%;
+  background-color: #522806;
 }
 
 .banner div {
