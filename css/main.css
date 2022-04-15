@@ -56,6 +56,13 @@ nav a {
   text-decoration: none;
 }
 
+nav a:focus {
+  outline: 3px solid #fff;
+  border: .3rem solid #522806;
+  background-color: #fff;
+  color: #522806;
+}
+
 .banner {
   display: grid;
   grid-template-columns: 1fr;
@@ -93,6 +100,13 @@ nav a {
   color: #fff;
   font-weight: bold;
   text-decoration: none;
+}
+
+.banner a:focus {
+  outline: 3px solid #fff;
+  border: .3rem solid #522806;
+  background-color: #fff;
+  color: #522806;
 }
 
 .ship {
@@ -134,6 +148,13 @@ nav a {
   color: #522806;
   font-weight: bold;
   text-decoration: none;
+}
+
+.card a:focus {
+  outline: 3px solid #522806;
+  border: .3rem solid #fff;
+  background-color: #522806;
+  color: #fff;
 }
 
 footer {
